@@ -1,0 +1,66 @@
+/* 音乐列表 */
+.player {
+  margin-left: 20px;
+}
+.music-list {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  max-height: 370px;
+  overflow-y: scroll;
+}
+.music-list li {
+  position: relative;
+  min-height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 0px 30px 0px 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.music-list li .icon-delete {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  color: #acb8cc;
+  font-size: 18px;
+  font-weight: 700;
+}
+.music-list li:last-child {
+  border-bottom: none;
+}
+.music-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.music-button .add {
+  color: #eee;
+  background-color: #409eff;
+  border-color: #409eff;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #acb8cc;
+  border: 1px solid #dcdfe6;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: 0.1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.music-button .add:hover {
+  background: #532ab9;
+  border-color: #532ab9;
+  color: #fff;
+}
+header i {
+  width: 30px;
+}
